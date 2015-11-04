@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Fontdiner+Swanky);
+
+/* ///// Global ///// */
+
+body {
+  background: url(../images/background.jpg);
+  background-size: cover;
+  
+}
+
+/* ///// Header ///// */
+
+h1 {
+  font: 36px 'Fontdiner Swanky', cursive, sans-serif;
+  color: orange;
+  text-align: center;
+
+}
+
+/* ///// Buttons ///// */
+
+.buttons {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  height: 40px;
+  width: 175px;
+  border-radius: 50px;
+  margin: 0 25px;
+  font: 24px 'Fontdiner Swanky', cursive, sans-serif;
+  background-color: teal;
+  border: teal;
+  color: orange;
+}
+
+
+/* ///// Board ///// */
+
+.board {
+  width: 100%;
+  margin: auto 0;
+}
+
+.square {
+  display: inline-block;
+  height: 300px;
+  width: 30%;
+  margin: 0;
+}
+
+.center-horizontal {
+  border-width: 5px;
+  border-left-style: solid;
+  border-left-color: orange;
+  border-right-style: solid;
+  border-right-color: orange;
+}
+
+.top {
+  border-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: orange;
+}
+
+.bottom {
+  border-width: 5px;
+  border-top-style: solid;
+  border-top-color: orange;
+}
+
+.red-skull {
+  background: url(../images/red-skull.png) no-repeat center;
+  
+}
+
+.purple-skull {
+  background: url(../images/purple-skull.png) no-repeat center;
+}
